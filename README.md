@@ -17,6 +17,7 @@ skip in Swindon?" or "Do I need a permit for a skip on the road in Chippenham?".
 | `skip_prices`     | `postcode`, full or district (`SN1`) | Guide price for each skip size, 2 yard mini to 12 yard maxi, ex VAT, and the town page covering the postcode                                                     |
 | `skip_sizes`      | none                                 | Each size's typical dimensions, bin bag count, typical jobs, placement and heavy waste rules                                                                     |
 | `town_skip_facts` | `town`, name or slug                 | The council's skip permit (fee, lead time, how to apply), nearest recycling centres, council bulky and garden waste, fly-tipping fines and figures, common questions |
+| `how_to_book`     | `postcode`, `size`, both optional    | The number to call and hours, the next-day cut-off, what to have ready for the call, and with a postcode and size the guide price and council road permit fee |
 | `find_town`       | `query`, name or postcode district   | Up to 5 towns with a Crestway page, with county and page URL                                                                                                     |
 
 Every answer includes the Crestway page it came from and the phone number.
