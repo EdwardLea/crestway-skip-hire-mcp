@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "uk.co.crestwayskiphire/skip-hire",
+  "title": "Crestway Skip Hire",
+  "description": "UK skip hire prices, sizes and local permit rules",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.crestwayskiphire.co.uk/mcp-server",
+  "repository": {
+    "url": "https://github.com/EdwardLea/crestway-skip-hire-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.crestwayskiphire.co.uk/mcp"
+    }
+  ]
+}
